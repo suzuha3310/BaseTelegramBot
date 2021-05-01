@@ -4,7 +4,7 @@ const token = '' // You bot token
 
 // You can remove this if you have set the bot token
 if (token.length == 0) {
-  console.log(new Error('Please, set you bot token in file bot.js.'))
+  console.log(new Error('Please, set you bot token in bot.js file.'))
 
   process.exit(1)
 }
